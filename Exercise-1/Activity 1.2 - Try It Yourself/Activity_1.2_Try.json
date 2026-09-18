@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "6a9168fd4a18fd2871293703"
+  },
+  "app": "E-Commerce",
+  "domain": "customer_profiles",
+  "description": "Customer information, preferences, addresses and account details",
+  "read_write_pattern": "Read-heavy with occasional updates",
+  "recommended_family": "Document",
+  "recommended_db": "MongoDB",
+  "rationale": "Customer information can have flexible and nested structures."
+},
+{
+  "_id": {
+    "$oid": "6a9168fd4a18fd2871293704"
+  },
+  "app": "E-Commerce",
+  "domain": "product_catalog",
+  "description": "Products, descriptions, categories, specifications and attributes",
+  "read_write_pattern": "Read-heavy with frequent catalog updates",
+  "recommended_family": "Document",
+  "recommended_db": "MongoDB",
+  "rationale": "Products can have different attributes and benefit from a flexible document structure."
+},
+{
+  "_id": {
+    "$oid": "6a9168fd4a18fd2871293705"
+  },
+  "app": "E-Commerce",
+  "domain": "shopping_carts",
+  "description": "Active shopping carts and their items",
+  "read_write_pattern": "Frequent reads and writes with short-lived data",
+  "recommended_family": "Key-Value",
+  "recommended_db": "Redis",
+  "rationale": "Fast key-based access and TTL support are useful for active shopping carts."
+},
+{
+  "_id": {
+    "$oid": "6a9168fd4a18fd2871293706"
+  },
+  "app": "E-Commerce",
+  "domain": "orders",
+  "description": "Orders, items, payment status, shipping status and timestamps",
+  "read_write_pattern": "Write-heavy with queries by customer and date",
+  "recommended_family": "Document",
+  "recommended_db": "MongoDB",
+  "rationale": "An order and its line items can be represented naturally as a document."
+},
+{
+  "_id": {
+    "$oid": "6a9168fd4a18fd2871293707"
+  },
+  "app": "E-Commerce",
+  "domain": "recommendations",
+  "description": "Relationships between customers, products and frequently purchased items",
+  "read_write_pattern": "Relationship and traversal queries",
+  "recommended_family": "Graph",
+  "recommended_db": "Neo4j",
+  "rationale": "Graph databases are suitable for analyzing relationships between customers and products."
+}]

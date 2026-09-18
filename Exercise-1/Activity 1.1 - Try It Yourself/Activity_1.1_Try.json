@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "6a9164cdb6e74f3b222f8a35"
+  },
+  "name": "ArangoDB",
+  "family": "Multi-Model",
+  "data_model": "Document / Graph / Key-Value",
+  "vendor": "ArangoDB Inc.",
+  "use_case": "Applications requiring flexible document data and graph relationships",
+  "open_source": true,
+  "classification_reason": "ArangoDB supports multiple data models in one database, including document and graph models."
+}]
