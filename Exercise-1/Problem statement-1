@@ -1,0 +1,56 @@
+1.1 Classify Database Products
+Objective: Practice identifying which NoSQL family each database product belongs
+to and justify your classification.
+Instructions:
+1. For each of the following products, identify the NoSQL family and write one
+sentence explaining your reasoning: Amazon S3, Couchbase, Apache HBase,
+Amazon Neptune, Memcached.
+2. For each product, identify one real-world use case where it would be the best
+choice among the four families, and explain why.
+3. Create a comparison table in your notes with columns: Product, Family, Best For,
+Limitation.
+Solution: 
+Amazon S3 is a key-value store (or object store, which is a key-value variant)
+because data is stored and retrieved by a unique key (the object key) with no internal
+querying capability. Couchbase is a document database because it stores JSON
+documents and supports secondary indexes and querying on document fields.
+Apache HBase is a column-family store because it organizes data into column
+families and is optimized for wide rows with millions of columns. Amazon Neptune is
+a graph database because it is designed specifically for storing and querying
+property graph data using SPARQL and Gremlin. Memcached is a key-value store
+because it stores arbitrary byte arrays indexed by string keys with no query
+capability.
+
+Try it yourself: Research a database product like (e.g., ScyllaDB, InfluxDB,
+ArangoDB) and classify it. Does it fit neatly into one family, or does it span multiple
+families?
+
+23CSE528: NoSQL DBs using MongoDB
+
+1.2 Map a Real-World Application to NoSQL Families
+Objective: Given a real-world application scenario, identify the most appropriate
+NoSQL family and justify your choice.
+Instructions:
+1. Consider a ride-sharing application like Uber. It needs to store driver locations
+(frequently updated), user profiles, ride history, and driver-rider relationship graphs.
+For each of these four data domains, identify the best NoSQL family and explain
+why.
+2. Consider a social media analytics platform that must process millions of posts per
+day, track trending topics in real time, and serve user dashboards. Which NoSQL
+family would you choose for the raw post storage, and which for the real-time
+analytics layer?
+Solution: For the ride-sharing application
+Driver locations should use a key-value store (Redis) because locations are written
+frequently and read by driver ID, with no complex querying needed. User profiles fit a
+document database (MongoDB) because each profile is a self-contained unit with
+nested fields (addresses, preferences, payment methods). Ride history fits a
+document database or column-family store (Cassandra) because it is append-only
+and queried by rider ID and date range. The driver-rider relationship graph fits a
+graph database (Neo4j) for efficient traversal of connections, referral networks, and
+fraud detection. For the social media analytics platform: Raw post storage fits a
+column-family store (Cassandra) for its high write throughput and time-series access
+pattern. Real-time analytics could use a key-value store (Redis) for counters and
+trending topic caches, backed by a column-family store for durable storage.
+Try it yourself: Choose a different application domain (e.g., healthcare, e-
+commerce, IoT fleet management) and repeat the mapping exercise. Document your
+reasoning in a short paragraph for each data domain.
