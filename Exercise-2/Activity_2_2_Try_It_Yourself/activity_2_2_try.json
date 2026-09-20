@@ -1,0 +1,88 @@
+[
+  {
+    "title": "The Pragmatic Programmer",
+    "author": "David Thomas & Andrew Hunt",
+    "year": 2019,
+    "genre": "Software Engineering",
+    "price": 49.99,
+    "isbn": "978-0135957059",
+    "tags": [
+      "programming",
+      "career",
+      "best-practices"
+    ],
+    "publisher": {
+      "name": "Addison-Wesley",
+      "location": "Boston"
+    }
+  },
+  {
+    "title": "Designing Data-Intensive Applications",
+    "author": "Martin Kleppmann",
+    "year": 2017,
+    "genre": "Databases",
+    "price": 45.99,
+    "isbn": "978-1449373320",
+    "tags": [
+      "databases",
+      "distributed-systems",
+      "architecture"
+    ],
+    "publisher": {
+      "name": "O'Reilly Media",
+      "location": "Sebastopol"
+    }
+  },
+  {
+    "title": "Deep Learning",
+    "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+    "year": 2016,
+    "genre": "Machine Learning",
+    "price": 72.00,
+    "isbn": "978-0262035613",
+    "tags": [
+      "AI",
+      "neural-networks",
+      "theory"
+    ],
+    "publisher": {
+      "name": "MIT Press",
+      "location": "Cambridge"
+    }
+  },
+  {
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "year": 2008,
+    "genre": "Software Engineering",
+    "price": 39.99,
+    "isbn": "978-0132350884",
+    "tags": [
+      "programming",
+      "clean-code",
+      "refactoring"
+    ],
+    "publisher": {
+      "name": "Prentice Hall",
+      "location": "Upper Saddle River"
+    }
+  },
+  {
+    "title": "Hands-On Machine Learning",
+    "author": "Aurelien Geron",
+    "year": 2022,
+    "genre": "Machine Learning",
+    "price": 59.99,
+    "isbn": "978-1098125974",
+    "tags": [
+      "AI",
+      "scikit-learn",
+      "tensorflow",
+      "practical"
+    ],
+    "publisher": {
+      "name": "O'Reilly Media",
+      "location": "Sebastopol"
+    }
+  }
+]

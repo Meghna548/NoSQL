@@ -1,0 +1,12 @@
+{
+    "activity": "2.1",
+    "description": "Comparison of MongoDB Atlas and Docker MongoDB server versions",
+    "atlas": {
+        "connection": "MongoDB Atlas",
+        "server_version": "Record from program output"
+    },
+    "docker": {
+        "connection": "Docker MongoDB",
+        "server_version": "7.0.40"
+    }
+}
