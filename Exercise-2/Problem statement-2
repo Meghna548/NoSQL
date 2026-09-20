@@ -1,1 +1,6 @@
+Activity for 2.1:
+Try running both Atlas and Docker MongoDB simultaneously. Write a script that connects to both and compares their server version information using the server_info() command.
+
+Activity for 2.2:
+Add an update operation to your script that increases the price of all books published before 2010 by 10 percent. Verify the update in Compass.
 
