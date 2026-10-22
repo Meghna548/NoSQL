@@ -1,9 +1,0 @@
-[{
-  "_id": {
-    "$oid": "6a9eda4a188a1b3a3bd53420"
-  },
-  "title": "Post with 10,000 Comments",
-  "content": "Example of a post with a very large number of comments.",
-  "comment_count": 10000,
-  "design": "Referenced comments"
-}]
