@@ -1,0 +1,24 @@
+Lab 3.1: Design an Embedded Document Schema
+Objective: Design and implement an embedded document schema for a realistic use case.
+Prerequisites: Completion of 2.1 & 2.2 labs.
+Instructions:
+1. Design a document schema for a university course enrollment system. Each course document should embed its roster of students (name, ID, grade) and its schedule (days, times, room). Write the PyMongo code to create the collection, insert at least 3 course documents, and query for all courses that meet on Monday.
+2. Add schema validation to the courses collection that requires title, code (e.g., CS401), instructor, and schedule fields.
+3. Write a query that finds all students enrolled in courses taught by a specific instructor.
+
+Activity for 3.1: Try it yourself
+Add a requirement to track prerequisites between courses. Decide whether to embed or reference the prerequisite relationships and justify your choice.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Lab 3.2: Migrate from Referenced to Embedded Design
+Objective: Convert a referenced design to an embedded design and compare performance characteristics.
+Prerequisites: Completion of Lab 3.1.
+Instructions:
+1. Create a blog system with separate collections for posts and comments (referenced design). Insert 5 posts and 10 comments.
+2. Write a query using $lookup to retrieve a post with its comments in a single query.
+3. Now redesign the system using embedding (comments as an array within the post document). Migrate the data from the referenced design to the embedded design using an aggregation pipeline or Python script.
+4. Compare the number of database queries required to display a post with its comments in both designs.
+
+Activity for 3.2: Try it yourself
+Consider a scenario where a post has 10,000 comments. Explain why embedding would be problematic and what alternative design you would use.
