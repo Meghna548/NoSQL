@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "6aaa2337887fbc9b82a409ea"
+  },
+  "name": "Laptop",
+  "category": "Electronics",
+  "base_price": 500
+},
+{
+  "_id": {
+    "$oid": "6aaa2337887fbc9b82a409eb"
+  },
+  "name": "Mouse",
+  "category": "Electronics",
+  "base_price": 25
+},
+{
+  "_id": {
+    "$oid": "6aaa2337887fbc9b82a409ec"
+  },
+  "name": "Keyboard",
+  "category": "Electronics",
+  "base_price": 40
+},
+{
+  "_id": {
+    "$oid": "6aaa2337887fbc9b82a409ed"
+  },
+  "name": "Monitor",
+  "category": "Electronics",
+  "base_price": 200
+},
+{
+  "_id": {
+    "$oid": "6aaa2337887fbc9b82a409ee"
+  },
+  "name": "Desk",
+  "category": "Furniture",
+  "base_price": 150
+}]

@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "6aaa2337887fbc9b82a409ef"
+  },
+  "product_id": {
+    "$oid": "6aaa2337887fbc9b82a409ea"
+  },
+  "order_date": "2026-01-10",
+  "quantity": 2
+},
+{
+  "_id": {
+    "$oid": "6aaa2337887fbc9b82a409f0"
+  },
+  "product_id": {
+    "$oid": "6aaa2337887fbc9b82a409eb"
+  },
+  "order_date": "2026-01-12",
+  "quantity": 3
+},
+{
+  "_id": {
+    "$oid": "6aaa2337887fbc9b82a409f1"
+  },
+  "product_id": {
+    "$oid": "6aaa2337887fbc9b82a409ec"
+  },
+  "order_date": "2026-01-15",
+  "quantity": 1
+},
+{
+  "_id": {
+    "$oid": "6aaa2337887fbc9b82a409f2"
+  },
+  "product_id": {
+    "$oid": "6aaa2337887fbc9b82a409ed"
+  },
+  "order_date": "2026-02-05",
+  "quantity": 2
+},
+{
+  "_id": {
+    "$oid": "6aaa2337887fbc9b82a409f3"
+  },
+  "product_id": {
+    "$oid": "6aaa2337887fbc9b82a409ea"
+  },
+  "order_date": "2026-02-10",
+  "quantity": 1
+},
+{
+  "_id": {
+    "$oid": "6aaa2337887fbc9b82a409f4"
+  },
+  "product_id": {
+    "$oid": "6aaa2337887fbc9b82a409eb"
+  },
+  "order_date": "2026-02-15",
+  "quantity": 5
+},
+{
+  "_id": {
+    "$oid": "6aaa2337887fbc9b82a409f5"
+  },
+  "product_id": {
+    "$oid": "6aaa2337887fbc9b82a409ec"
+  },
+  "order_date": "2026-03-01",
+  "quantity": 2
+},
+{
+  "_id": {
+    "$oid": "6aaa2337887fbc9b82a409f6"
+  },
+  "product_id": {
+    "$oid": "6aaa2337887fbc9b82a409ed"
+  },
+  "order_date": "2026-03-10",
+  "quantity": 1
+}]

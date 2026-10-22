@@ -1,0 +1,260 @@
+[{
+  "_id": {
+    "$oid": "6aaa18c12d42d38144f2d0dd"
+  },
+  "customer": "Alice",
+  "product": "Laptop",
+  "quantity": 2,
+  "unit_price": 500,
+  "order_date": {
+    "$date": "2026-01-10T00:00:00.000Z"
+  },
+  "status": "completed"
+},
+{
+  "_id": {
+    "$oid": "6aaa18c12d42d38144f2d0de"
+  },
+  "customer": "Bob",
+  "product": "Mouse",
+  "quantity": 3,
+  "unit_price": 25,
+  "order_date": {
+    "$date": "2026-01-12T00:00:00.000Z"
+  },
+  "status": "completed"
+},
+{
+  "_id": {
+    "$oid": "6aaa18c12d42d38144f2d0df"
+  },
+  "customer": "Carol",
+  "product": "Keyboard",
+  "quantity": 2,
+  "unit_price": 40,
+  "order_date": {
+    "$date": "2026-01-15T00:00:00.000Z"
+  },
+  "status": "pending"
+},
+{
+  "_id": {
+    "$oid": "6aaa18c12d42d38144f2d0e0"
+  },
+  "customer": "David",
+  "product": "Monitor",
+  "quantity": 1,
+  "unit_price": 200,
+  "order_date": {
+    "$date": "2026-01-20T00:00:00.000Z"
+  },
+  "status": "completed"
+},
+{
+  "_id": {
+    "$oid": "6aaa18c12d42d38144f2d0e1"
+  },
+  "customer": "Alice",
+  "product": "Mouse",
+  "quantity": 4,
+  "unit_price": 25,
+  "order_date": {
+    "$date": "2026-02-05T00:00:00.000Z"
+  },
+  "status": "completed"
+},
+{
+  "_id": {
+    "$oid": "6aaa18c12d42d38144f2d0e2"
+  },
+  "customer": "Bob",
+  "product": "Laptop",
+  "quantity": 1,
+  "unit_price": 500,
+  "order_date": {
+    "$date": "2026-02-08T00:00:00.000Z"
+  },
+  "status": "pending"
+},
+{
+  "_id": {
+    "$oid": "6aaa18c12d42d38144f2d0e3"
+  },
+  "customer": "Carol",
+  "product": "Monitor",
+  "quantity": 2,
+  "unit_price": 200,
+  "order_date": {
+    "$date": "2026-02-12T00:00:00.000Z"
+  },
+  "status": "completed"
+},
+{
+  "_id": {
+    "$oid": "6aaa18c12d42d38144f2d0e4"
+  },
+  "customer": "David",
+  "product": "Keyboard",
+  "quantity": 3,
+  "unit_price": 40,
+  "order_date": {
+    "$date": "2026-02-18T00:00:00.000Z"
+  },
+  "status": "cancelled"
+},
+{
+  "_id": {
+    "$oid": "6aaa18c12d42d38144f2d0e5"
+  },
+  "customer": "Alice",
+  "product": "Monitor",
+  "quantity": 1,
+  "unit_price": 200,
+  "order_date": {
+    "$date": "2026-03-03T00:00:00.000Z"
+  },
+  "status": "completed"
+},
+{
+  "_id": {
+    "$oid": "6aaa18c12d42d38144f2d0e6"
+  },
+  "customer": "Bob",
+  "product": "Mouse",
+  "quantity": 5,
+  "unit_price": 25,
+  "order_date": {
+    "$date": "2026-03-07T00:00:00.000Z"
+  },
+  "status": "completed"
+},
+{
+  "_id": {
+    "$oid": "6aaa18c12d42d38144f2d0e7"
+  },
+  "customer": "Carol",
+  "product": "Laptop",
+  "quantity": 1,
+  "unit_price": 500,
+  "order_date": {
+    "$date": "2026-03-10T00:00:00.000Z"
+  },
+  "status": "pending"
+},
+{
+  "_id": {
+    "$oid": "6aaa18c12d42d38144f2d0e8"
+  },
+  "customer": "David",
+  "product": "Mouse",
+  "quantity": 2,
+  "unit_price": 25,
+  "order_date": {
+    "$date": "2026-03-15T00:00:00.000Z"
+  },
+  "status": "completed"
+},
+{
+  "_id": {
+    "$oid": "6aaa18c12d42d38144f2d0e9"
+  },
+  "customer": "Alice",
+  "product": "Keyboard",
+  "quantity": 2,
+  "unit_price": 40,
+  "order_date": {
+    "$date": "2026-04-02T00:00:00.000Z"
+  },
+  "status": "pending"
+},
+{
+  "_id": {
+    "$oid": "6aaa18c12d42d38144f2d0ea"
+  },
+  "customer": "Bob",
+  "product": "Monitor",
+  "quantity": 1,
+  "unit_price": 200,
+  "order_date": {
+    "$date": "2026-04-08T00:00:00.000Z"
+  },
+  "status": "completed"
+},
+{
+  "_id": {
+    "$oid": "6aaa18c12d42d38144f2d0eb"
+  },
+  "customer": "Carol",
+  "product": "Mouse",
+  "quantity": 6,
+  "unit_price": 25,
+  "order_date": {
+    "$date": "2026-04-12T00:00:00.000Z"
+  },
+  "status": "completed"
+},
+{
+  "_id": {
+    "$oid": "6aaa18c12d42d38144f2d0ec"
+  },
+  "customer": "David",
+  "product": "Laptop",
+  "quantity": 1,
+  "unit_price": 500,
+  "order_date": {
+    "$date": "2026-04-20T00:00:00.000Z"
+  },
+  "status": "pending"
+},
+{
+  "_id": {
+    "$oid": "6aaa18c12d42d38144f2d0ed"
+  },
+  "customer": "Alice",
+  "product": "Mouse",
+  "quantity": 2,
+  "unit_price": 25,
+  "order_date": {
+    "$date": "2026-05-05T00:00:00.000Z"
+  },
+  "status": "completed"
+},
+{
+  "_id": {
+    "$oid": "6aaa18c12d42d38144f2d0ee"
+  },
+  "customer": "Bob",
+  "product": "Keyboard",
+  "quantity": 4,
+  "unit_price": 40,
+  "order_date": {
+    "$date": "2026-05-10T00:00:00.000Z"
+  },
+  "status": "cancelled"
+},
+{
+  "_id": {
+    "$oid": "6aaa18c12d42d38144f2d0ef"
+  },
+  "customer": "Carol",
+  "product": "Monitor",
+  "quantity": 1,
+  "unit_price": 200,
+  "order_date": {
+    "$date": "2026-05-15T00:00:00.000Z"
+  },
+  "status": "completed"
+},
+{
+  "_id": {
+    "$oid": "6aaa18c12d42d38144f2d0f0"
+  },
+  "customer": "David",
+  "product": "Mouse",
+  "quantity": 3,
+  "unit_price": 25,
+  "order_date": {
+    "$date": "2026-05-20T00:00:00.000Z"
+  },
+  "status": "completed"
+}]
