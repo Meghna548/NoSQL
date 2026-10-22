@@ -1,0 +1,25 @@
+Lab 6.1: Index Design for a Query Workload
+Objective: Design and validate indexes for a realistic query workload.
+Prerequisites: Completion of Chapter 5 labs.
+Instructions:
+1. Create a products collection with 50,000 generated documents (use a loop with random data). Fields: name, category, price, rating, stock, tags (array).
+2. Write five representative queries for this collection (e.g., find by category and sort by price, find by price range, find by tag, text search on name).
+3. Run explain() on each query before creating any indexes. Record the stage and totalDocsExamined for each.
+4. Design a set of indexes that covers all five queries. Create the indexes and run explain() again. Compare the before and after results.
+
+Activity for 6.1: Try it yourself
+Use the $indexStats aggregation stage to measure actual index usage after running your queries multiple times. Identify which indexes are used most frequently.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Lab 6.2: Compare Index Strategies
+Objective: Compare the performance impact of different index configurations.
+Prerequisites: Completion of Lab 6.1.
+Instructions:
+1. Starting with no indexes (except _id), measure the time to insert 10,000 documents using Python's time module.
+2. Create 5 indexes on different fields. Insert another 10,000 documents and measure the time again. Calculate the percentage slowdown.
+3. Drop all but the most critical index. Run your five representative queries again and compare performance.
+4. Write a short analysis explaining the trade-off between query performance and write throughput.
+
+Activity for 6.2: Try it yourself
+Research covered queries (queries where all returned fields are present in the index). Implement a covered query and use explain() to verify that the FETCH stage is eliminated.
