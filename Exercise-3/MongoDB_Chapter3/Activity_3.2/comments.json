@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "6a9ed76f5b97b90721d0587f"
+  },
+  "post_id": {
+    "$oid": "6a9ed76f5b97b90721d0587a"
+  },
+  "text": "Great overview!",
+  "author": "reader1"
+},
+{
+  "_id": {
+    "$oid": "6a9ed76f5b97b90721d05880"
+  },
+  "post_id": {
+    "$oid": "6a9ed76f5b97b90721d0587a"
+  },
+  "text": "I prefer SQL though",
+  "author": "reader2"
+},
+{
+  "_id": {
+    "$oid": "6a9ed76f5b97b90721d05881"
+  },
+  "post_id": {
+    "$oid": "6a9ed76f5b97b90721d0587b"
+  },
+  "text": "The $lookup stage is powerful",
+  "author": "reader4"
+},
+{
+  "_id": {
+    "$oid": "6a9ed76f5b97b90721d05882"
+  },
+  "post_id": {
+    "$oid": "6a9ed76f5b97b90721d0587b"
+  },
+  "text": "Can you cover $facet next?",
+  "author": "reader1"
+},
+{
+  "_id": {
+    "$oid": "6a9ed76f5b97b90721d05883"
+  },
+  "post_id": {
+    "$oid": "6a9ed76f5b97b90721d0587c"
+  },
+  "text": "HNSW vs IVF comparison?",
+  "author": "reader6"
+},
+{
+  "_id": {
+    "$oid": "6a9ed76f5b97b90721d05884"
+  },
+  "post_id": {
+    "$oid": "6a9ed76f5b97b90721d0587c"
+  },
+  "text": "How does this scale?",
+  "author": "reader2"
+},
+{
+  "_id": {
+    "$oid": "6a9ed76f5b97b90721d05885"
+  },
+  "post_id": {
+    "$oid": "6a9ed76f5b97b90721d0587d"
+  },
+  "text": "AP systems are underrated",
+  "author": "reader7"
+},
+{
+  "_id": {
+    "$oid": "6a9ed76f5b97b90721d05886"
+  },
+  "post_id": {
+    "$oid": "6a9ed76f5b97b90721d0587d"
+  },
+  "text": "Good for interviews too",
+  "author": "reader3"
+},
+{
+  "_id": {
+    "$oid": "6a9ed76f5b97b90721d05887"
+  },
+  "post_id": {
+    "$oid": "6a9ed76f5b97b90721d0587e"
+  },
+  "text": "Neo4j Cypher is intuitive",
+  "author": "reader8"
+},
+{
+  "_id": {
+    "$oid": "6a9ed76f5b97b90721d05888"
+  },
+  "post_id": {
+    "$oid": "6a9ed76f5b97b90721d0587e"
+  },
+  "text": "Graph + Vector hybrid?",
+  "author": "reader6"
+}]
