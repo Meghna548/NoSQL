@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "6aa0e6458a1e30c4e997b669"
+  },
+  "sku": "P001",
+  "name": "Laptop",
+  "price": 900,
+  "stock": 20
+},
+{
+  "_id": {
+    "$oid": "6aa0e6458a1e30c4e997b66a"
+  },
+  "sku": "P002",
+  "name": "Mouse",
+  "price": 25,
+  "stock": 50
+},
+{
+  "_id": {
+    "$oid": "6aa0e6458a1e30c4e997b66b"
+  },
+  "sku": "P003",
+  "name": "Keyboard",
+  "price": 45,
+  "stock": 30
+},
+{
+  "_id": {
+    "$oid": "6aa0e6458a1e30c4e997b66c"
+  },
+  "sku": "P004",
+  "name": "Headphones",
+  "price": 75,
+  "stock": 15
+},
+{
+  "_id": {
+    "$oid": "6aa0e6458a1e30c4e997b66d"
+  },
+  "sku": "P005",
+  "name": "Monitor",
+  "price": 200,
+  "stock": 10
+}]

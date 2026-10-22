@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "6aa0ddcd1487b064665858b9"
+  },
+  "name": "Wireless Mouse",
+  "price": 25,
+  "stock": 50,
+  "tags": [
+    "electronics",
+    "wireless"
+  ]
+}]

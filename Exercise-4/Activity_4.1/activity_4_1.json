@@ -1,0 +1,122 @@
+[{
+  "_id": {
+    "$oid": "6aa0ddcd1487b064665858b8"
+  },
+  "name": "Laptop",
+  "price": 999,
+  "stock": 15,
+  "tags": [
+    "electronics",
+    "wireless",
+    "premium"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa0ddcd1487b064665858b9"
+  },
+  "name": "Wireless Mouse",
+  "price": 25,
+  "stock": 50,
+  "tags": [
+    "electronics",
+    "wireless"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa0ddcd1487b064665858ba"
+  },
+  "name": "Keyboard",
+  "price": 45,
+  "stock": 0,
+  "tags": [
+    "electronics",
+    "wireless"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa0ddcd1487b064665858bb"
+  },
+  "name": "Headphones",
+  "price": 75,
+  "stock": 30,
+  "tags": [
+    "electronics",
+    "wireless",
+    "premium"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa0ddcd1487b064665858bc"
+  },
+  "name": "USB Cable",
+  "price": 15,
+  "stock": 100,
+  "tags": [
+    "electronics",
+    "cable"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa0ddcd1487b064665858bd"
+  },
+  "name": "Smart Watch",
+  "price": 150,
+  "stock": 0,
+  "tags": [
+    "electronics",
+    "wireless",
+    "premium"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa0ddcd1487b064665858be"
+  },
+  "name": "Backpack",
+  "price": 40,
+  "stock": 20,
+  "tags": [
+    "bags",
+    "premium"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa0ddcd1487b064665858bf"
+  },
+  "name": "Notebook",
+  "price": 10,
+  "stock": 200,
+  "tags": [
+    "stationery"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa0ddcd1487b064665858c0"
+  },
+  "name": "Gaming Router",
+  "price": 120,
+  "stock": 10,
+  "tags": [
+    "electronics",
+    "wireless"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa0ddcd1487b064665858c1"
+  },
+  "name": "Desk Lamp",
+  "price": 35,
+  "stock": 0,
+  "tags": [
+    "electronics",
+    "home"
+  ]
+}]
