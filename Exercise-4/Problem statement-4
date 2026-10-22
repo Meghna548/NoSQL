@@ -1,0 +1,25 @@
+Lab 4.1: Build a Product Query API
+Objective: Implement a set of CRUD operations for a product inventory system using all query operator categories.
+Prerequisites: Completion of Chapter 2 and 3 labs.
+Instructions:
+1. Create a products collection with schema validation requiring name (string), price (positive number), stock (non-negative integer), and tags (array of strings). Insert at least 10 products with varying attributes.
+2. Write queries using comparison operators: find products with price between 20 and 50, find products with stock equal to 0 (out of stock).
+3. Write queries using logical operators: find products that are either out of stock OR priced above 100, find products that are in stock AND tagged as 'premium'.
+4. Write queries using array operators: find products that have BOTH 'electronics' AND 'wireless' in their tags, find products with exactly 2 tags.
+5. Implement pagination: write a function that takes a page number and items-per-page and returns the correct slice of products sorted by name.
+
+Activity for 4.1: Try it yourself
+Add a text search capability using the $regex operator to find products whose name contains a search string (case-insensitive).
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Lab 4.2: Implement Upsert and Bulk Operations
+Objective: Use upserts and bulk writes to handle conditional inserts and batch modifications.
+Prerequisites: Completion of Lab 4.1.
+Instructions:
+1. Write a function that takes a product SKU and price. If the SKU exists, update the price. If not, insert a new document with default values. Use update_one with upsert=True.
+2. Write a bulk_write operation that processes 5 simultaneous updates: increase stock by 10 for products A, B, and C, set is_active to false for products D and E. Use UpdateOne operations.Verify the bulk write result object to confirm the number of modified and upserted
+documents.
+
+Activity for 4.2: Try it yourself
+Implement an idempotent bulk import function that can be run multiple times without creating duplicates, using upsert logic for each document.
