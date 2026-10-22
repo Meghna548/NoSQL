@@ -1,0 +1,26 @@
+Lab 5.1: Build a Sales Analytics Pipeline
+
+Objective: Construct aggregation pipelines for a sales analytics system.
+Prerequisites: Completion of Chapter 4 labs.
+Instructions:
+1. Create an orders collection with fields: customer, product, quantity, unit_price, order_date, status. Insert at least 20 orders across multiple customers and products.
+2. Write a pipeline that computes monthly revenue (group by month, sum quantity * unit_price) sorted by month.
+3. Write a pipeline that finds the top 3 customers by total spending, including a list of products they bought.
+4. Write a pipeline that computes the average order value per status category.
+
+Activity for 5.1: Try it yourself
+Add a $bucket stage to categorize orders into small (under $50), medium ($50-200), and large (over $200) based on total order value.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Lab 5.2: Join Data with $lookup
+
+Objective: Use $lookup to perform cross-collection joins and analyze the results.
+Prerequisites: Completion of Lab 5.1.
+Instructions:
+1. Create a products collection with name, category, and base_price. Create an orders collection that references products by product_id (not embedding). Insert related data.
+2. Write a $lookup pipeline that joins orders with products to produce a result showing order date, product name, quantity, and computed total (quantity * base_price).
+3. Write a pipeline that finds products that have never been ordered (left outer join using $lookup with a follow-up $match for empty join results).
+
+Activity for 5.2: Try it yourself
+Implement a $lookup with a pipeline sub-expression (available in MongoDB 3.6+) to filter the joined documents on the foreign side before they are returned.
