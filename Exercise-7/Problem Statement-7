@@ -1,0 +1,26 @@
+Lab 7.1: Analyze a Production Schema
+Objective: Examine a realistic production schema and identify embedding and referencing decisions.
+Prerequisites: Completion of Chapters 1-6.
+Cyber Threat Intelligence URL: https://ctidigest.com/
+Instructions:
+1. Given a MongoDB dump of a threat-intelligence platform (you will create it based on the URL mentioned above), identify which relationships use embedding and which use referencing.
+2. For each referencing relationship, explain why embedding was not used and what the embedded alternative would look like.
+3. Calculate the average document size using $bsonSize and verify that no documents approach the 16 MB limit.
+
+
+Activity for 7.1: Try it yourself
+Redesign one of the referencing relationships as an embedded design (In this case deciding which source is an actual threat). What queries become faster? What becomes harder?
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Lab 7.2: Working Set Analysis
+Objective: Estimate the working set of a dataset and evaluate cache fit.
+Prerequisites: Completion of Lab 7.1.
+Dataset: https://github.com/jacobdjwilson/awesome-annual-security-reports/
+Instructions:
+1. Insert 100,000 documents into a test collection, each approximately 2 KB in size.
+2. Use the serverStatus command to check the WiredTiger cache size and the percentage of data in cache.
+3. Run random reads across the entire collection and observe how the cache hit ratio changes over time.
+
+Activity for 7.2: Try it yourself
+Research the db.serverStatus() metrics related to WiredTiger and create a simple monitoring script (Script that browses for newer threat reports not available in the DB) that reports cache hit ratio every 10 seconds.
