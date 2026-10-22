@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Cyber Threat Intelligence Platform</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>
+            Cyber Threat Intelligence Platform
+        </h1>
+
+        <p>
+            Search and classify cyber threat intelligence
+        </p>
+
+    </header>
+
+
+    <main>
+
+        <section class="search-box">
+
+            <input
+                type="text"
+                id="search"
+                placeholder="Search threat reports..."
+            >
+
+            <button
+                onclick="searchReports()"
+            >
+                Search
+            </button>
+
+        </section>
+
+
+        <section class="classifier">
+
+            <h2>
+                Threat Classification
+            </h2>
+
+            <input
+                type="text"
+                id="classificationText"
+                placeholder="Enter text to classify..."
+            >
+
+            <button
+                onclick="classifyThreat()"
+            >
+                Classify
+            </button>
+
+            <p id="classificationResult"></p>
+
+        </section>
+
+
+        <section>
+
+            <h2>
+                Threat Reports
+            </h2>
+
+            <div id="reports"></div>
+
+        </section>
+
+    </main>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    background: #f4f6f8;
+
+    color: #222;
+}
+
+
+header {
+
+    background: #1f2937;
+
+    color: white;
+
+    padding: 30px;
+
+    text-align: center;
+}
+
+
+main {
+
+    width: 90%;
+
+    max-width: 1000px;
+
+    margin: 30px auto;
+}
+
+
+.search-box,
+.classifier {
+
+    background: white;
+
+    padding: 20px;
+
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+}
+
+
+input {
+
+    width: 70%;
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+}
+
+
+button {
+
+    padding: 12px 20px;
+
+    margin-left: 5px;
+
+    border: none;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+}
+
+
+button:hover {
+
+    opacity: 0.8;
+}
+
+
+.report {
+
+    background: white;
+
+    padding: 20px;
+
+    margin-bottom: 15px;
+
+    border-radius: 10px;
+}
+
+
+.report h3 {
+
+    margin-top: 0;
+}
+
+
+.threat {
+
+    font-weight: bold;
+}
